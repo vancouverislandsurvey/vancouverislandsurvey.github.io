@@ -1,1 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono|Material+Icons');
+html, body{
+  overflow: hidden;
+}
+body{
+  background: #000000 ;
+  font-family: 'Roboto Mono', monospace;
+  color: #fff;
+  font-size: 12px;
+  line-height: 20px;
+  font-weight: 200;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+header{
+  top: 36px;
+  left: 36px;
+  height: 64px;
+  verticle-align: middle;
+  position: fixed;
+}
+footer{
+  left: 0;
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+}
+h1.title{
+  font-family: 'Roboto Mono';
+/*   text-transform: uppercase; */
+  font-weight: 200;
+  font-size: 14px;
+  line-height: 18px;
+  margin: 36px;
+  padding: 0;
+  display: table;
+  background: #00000088;
 
+}
+
+#renderer{
+  width: 100%;
+  height: 100%;
+  position: fixed;
+}
+ul{
+  padding: 0;
+  margin: 36px;
+}
+footer ul{
+  padding-top: 18px;
+  border-top: 1px solid #fff;
+}
+li{
+  list-style: none;
+  display: table;
+  background: #00000088;
+}
+.logo{
+  width: 64px;
+  height: 64px;
+  fill: #fff;
+  float: left;
+}
+@media (max-height: 380px) {
+  .logo{
+    display: none;
+  }
+ }
